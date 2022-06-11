@@ -1,0 +1,142 @@
+.cont-form{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 6fr);
+    width: 1200px;
+    }
+.required{
+        width: 90%;
+        margin-top: 8px;
+        height: 50%;
+    } 
+.button{
+    margin-top: 9px;
+    width: 30%;
+    height: 50%;
+    color: aliceblue;
+    background: rgb(13, 69, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.button:hover{
+    transform:scale(1.10);
+    -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.cont-form label{
+    width: 100%;
+    color: rgb(23, 131, 8); 
+    font-family: fantasy;  
+    font-size: 160%;
+    }
+    .redes-sociales ul{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        position: relative;
+        }
+.redes-sociales a{
+    color: rgb(212, 212, 212);
+    list-style: none;
+    position: relative;
+    }
+      
+
+      .font-weight-bold{
+        color: rgb(23, 131, 8); 
+        font-size: 18px;
+    }
+    .text-reset{
+        text-decoration: none;
+        padding: 10px;
+    }
+    /*Terminos y condiciones*/
+    .red-social{
+        margin: 15px 0 0 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .terminos a{
+        margin: 10px;
+      }
+      .terminos a:link, a:visited, a:active{
+            text-decoration:none;
+            font-size: 18px;
+            color: #fff;
+      }
+      .cont-pie{
+        padding: 15px;
+        font-size: 18px;
+        color: rgb(148, 148, 148);
+      }
+      .a1{
+        border-right: solid; 
+        border-width: 2px; 
+        margin: 10px; 
+        padding: 12px;
+        border-color: rgb(68, 185, 0);
+      }
+      .container-bor{
+          border: solid;
+          border-color: rgb(23, 131, 8); 
+          background: rgb(53, 53, 53); 
+          border-width: 3px;
+          padding: 15px;
+      }
+@media screen and (max-width: 412px){
+    .cont-form label{
+    width: 47%;
+    color: rgb(23, 131, 8); 
+    font-family: fantasy;  
+    font-size: 15px;
+    } 
+    .required{
+    width: 36%;
+    } 
+    .button{
+        width: 15%;
+        height: 3%;
+        float: left;
+        left: 56%;
+        margin: 1px;
+        z-index: 0;
+        position: absolute;
+    }
+    .redes-sociales ul{
+        text-align:left;
+    }
+    .cont-form{
+        margin-top: 10px;
+        display:unset;
+        grid-template-columns:none;
+        }
+.cont-pie{
+    font-size: 12px;
+}
+
+#tit{
+    color: rgb(23, 131, 8);
+    font-size: 18px; 
+}
+.text-reset{
+    text-decoration: none;
+    padding: 0px;
+}
+.terminos a:link, a:visited, a:active{
+    text-decoration:none;
+    font-size: 16px;
+    color: #fff;
+}
+.col-5 li{
+    font-size: 12px;
+}
+}

@@ -1,0 +1,101 @@
+
+
+.iniciar{
+    color:rgb(32, 216, 32);
+    
+}
+
+ .iniciar:hover{
+    
+    color:rgb(248, 124, 8);
+    transform: scale(1.20);
+    transition: all 0.5s;
+
+}
+ 
+.iniciar:active{
+    color:rgb(248, 124, 8);
+}
+
+
+
+.idioma{
+    color:white;
+}
+
+.idioma:hover{  
+      transform: scale(1.20);
+      transition: all 0.5s; 
+
+}
+
+.carrito{
+    color:white;
+    
+}
+
+.carrito:hover{  
+    transform: scale(1.20);
+     transition: all 0.5s; 
+
+}
+
+.superior{
+    color:white;
+    border:none;
+}
+.superior a:hover{/*ahora es inferior*/
+    background: rgb(66, 241, 42);
+    border-radius: 50px;
+    transition:  300ms;
+    
+}
+
+.categoria{
+    color:white;
+    border:0px;
+}
+.categoria:hover{/*ahora es inferior*/
+    background: rgb(245, 243, 243);
+    color:black;
+    border-radius:1px;
+    transition:  300ms;
+    
+}
+
+ .logo{
+    /*filter: brightness(0.4);
+    mix-blend-mode: multiply;*/
+    width: 140px;
+    height: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+ /*fin de header*/   
+
+
+/*inicio de body*/    
+
+.separador{
+    height: 15px;/*estilos separdor*/
+}
+
+/*estilo modal de login*/
+.modal-backdrop.show {
+    opacity: .8;  
+    background: white;
+ 
+    }
+.modal-open .container-fluid{
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(5px);
+}
+/*fin de modal login*/
+
+
